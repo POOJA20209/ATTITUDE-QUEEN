@@ -11,7 +11,7 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "[Forwarded from 📸 𝄪 ᴍɪʀᴀᴄʟᴇ ꭗ ɪᴍɢ 𝄪 📸]
+    
 🌐 | Telegraph Link:
 
     "https://telegra.ph/file/28267ea41e5379ffbaec2.jpg",

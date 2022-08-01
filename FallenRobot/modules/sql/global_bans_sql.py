@@ -1,6 +1,6 @@
 import threading
 
-from NekoRobot.modules.sql import BASE, SESSION
+from FallenRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
 

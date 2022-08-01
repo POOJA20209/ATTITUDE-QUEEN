@@ -287,7 +287,7 @@ async def lego(event):
 __mod_name__ = "Lᴏɢᴏ​"
 
 __help__ = """
-Star X Robot can create some beautiful and attractive logo for your profile pics.
+ ᴀᴛᴛɪᴛᴜᴅᴇ  ǫᴜᴇᴇɴ  can create some beautiful and attractive logo for your profile pics.
 
 ❍ /logo (Text) *:* Create a logo of your given text with random view.
 """

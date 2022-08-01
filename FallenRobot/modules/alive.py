@@ -11,21 +11,24 @@ from FallenRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://telegra.ph/file/26b5ac4684af8c68ebdce.jpg",
-    "https://telegra.ph/file/26b5ac4684af8c68ebdce.jpg",
+    "[Forwarded from 📸 𝄪 ᴍɪʀᴀᴄʟᴇ ꭗ ɪᴍɢ 𝄪 📸]
+🌐 | Telegraph Link:
+
+    "https://telegra.ph/file/28267ea41e5379ffbaec2.jpg",
+    "https://telegra.ph/file/bb2dd33c1dfdd1199a8dc.jpg",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ 𝚂𝚃𝙰𝚁 ✘ 𝚁𝙾𝙱𝙾𝚃​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐒𝐓𝐀𝐑🇽𝐁𝐎𝐈](https://t.me/its_star_boi)** \n\n"
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ  ᴀᴛᴛɪᴛᴜᴅᴇ - ǫᴜᴇᴇɴ ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [⸢ ᴀᴛᴛɪᴛᴜᴅᴇ - ǫᴜᴇᴇɴ ⸥](https://t.me/ATTITUDE_QUEEN_NO_1)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
   BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", f"https://t.me/itz_star_robot?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/Best_FriendsFor_Ever"),
+            Button.url("ʜᴇʟᴘ​", f"https://t.me/?start=help"),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/ "),
         ]
     ]
   ran = random.choice(PHOTO)

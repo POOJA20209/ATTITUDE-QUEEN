@@ -180,7 +180,7 @@ def config(client, message):
 
 __help__ = """
   *Force Subscribe:*
-  Star X Robot can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+ ATTITUDE QUEEN X ROBOT You are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
   *Setup* *:* *Only for chat owner*
   ❍ Add me in your group as admin

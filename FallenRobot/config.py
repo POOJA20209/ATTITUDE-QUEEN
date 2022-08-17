@@ -15,20 +15,20 @@ class Config(object):
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
     API_ID = 17017418  # integer value, dont use ""
-    API_HASH = 27080b3959b286500b752584a66f2999
-    TOKEN = 5490655617:AAGek3_-3XCaXb1o3vmAmgYGGuMMhtMKOXc  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_HASH = "27080b3959b286500b752584a66f2999"
+    TOKEN = "5490655617:AAGek3_-3XCaXb1o3vmAmgYGGuMMhtMKOXc"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5060030904  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = ATTITUDE_QUEEN_NO_1
-    SUPPORT_CHAT = Ourschennai  # Your own group for support, do not add the @
+    OWNER_USERNAME = "ATTITUDE_QUEEN_NO_1"
+    SUPPORT_CHAT = "Ourschennai"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-    1001496943275
+    -1001496943275
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-       1001610823714
+       -1001610823714
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = postgres://nmqjnebe:V6vLIx6mY9MjZ07lQNz-pehb935LK7b6@hansken.db.elephantsql.com/nmqjnebe  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://nmqjnebe:V6vLIx6mY9MjZ07lQNz-pehb935LK7b6@hansken.db.elephantsql.com/nmqjnebe"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -58,9 +58,9 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "RFRP5VRN20ENQL2V"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "3EJKIO5Y54G5"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )

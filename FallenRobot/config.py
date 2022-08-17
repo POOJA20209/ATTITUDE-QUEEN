@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1356469075  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "its_star_boi"
-    SUPPORT_CHAT = "Best_friendsFor_Ever"  # Your own group for support, do not add the @
+    API_ID = 17017418  # integer value, dont use ""
+    API_HASH = 27080b3959b286500b752584a66f2999
+    TOKEN = 5490655617:AAGek3_-3XCaXb1o3vmAmgYGGuMMhtMKOXc  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5060030904  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = ATTITUDE_QUEEN_NO_1
+    SUPPORT_CHAT = Ourschennai  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001621682412
+    1001496943275
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001621682412
+       1001610823714
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = postgres://nmqjnebe:V6vLIx6mY9MjZ07lQNz-pehb935LK7b6@hansken.db.elephantsql.com/nmqjnebe  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -38,7 +38,7 @@ class Config(object):
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
-    ##List of id's -  (not usernames) for users which have sudo access to the bot.
+    ##List of id's - 5563478008 (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
     DEV_USERS = get_user_list("elevated_users.json", "devs")
